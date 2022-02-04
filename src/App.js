@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Board from "./components/Board/Board";
-// import Game from './components/Game/Game';
+// import Board from "./components/Board/Board";
+import Game from "./components/Game/Game";
 // import Square from './components/Square/Square';
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <Square/>, */}
-        <Board />
-        {/* <Game/> */}
+        {/* <Board /> */}
+        <Game />
       </header>
     </div>
   );
